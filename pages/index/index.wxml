@@ -1,7 +1,63 @@
-<view class="swiper"></view>
+<!-- 轮播图 -->
+<view class="swiper">
+  <swiper autoplay interval="1000" circular indicator-dots indicator-color="#eee" indicator-active-color="#f3514f">
+    <swiper-item>
+      <image src="/assets/banner/banner-1.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-2.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-3.jpg" />
+    </swiper-item>
+  </swiper>
+</view>
 
-<view class="info"></view>
+<!-- 公司信息 -->
+<view class="info">
+  <text selectable space="nbsp">同城配送</text>
+  <text selectable space="nbsp">行业龙头</text>
+  <text selectable space="nbsp">半小时送达</text>
+  <text selectable space="nbsp">100%好评</text>
+</view>
 
-<view class="good-nav"></view>
+<!-- 商品 -->
+<view class="good-nav">
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" />
+      <text selectable space="nbsp">鲜花玫瑰</text>
+    </navigator>
+  </view>
 
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" />
+      <text selectable space="nbsp">鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" />
+      <text selectable space="nbsp">鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" />
+      <text selectable space="nbsp">鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" />
+      <text selectable space="nbsp">鲜花玫瑰</text>
+    </navigator>
+  </view>
+</view>
+
+<!-- 热购好物 -->
 <view class="good-hot"></view>

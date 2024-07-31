@@ -1,5 +1,56 @@
 /**index.wxss**/
 page {
   height: 100vh;
- background-color: #efefef;
+  background-color: #efefef;
+  padding: 16rpx;
+  box-sizing: border-box;
+
+  >view:nth-child(n+2) {
+    margin-top: 16rpx;
+    border-radius: 16rpx;
+    background-color: #fff;
+  }
+
+  .swiper swiper {
+    height: 376rpx;
+
+    swiper-item {
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24rpx;
+    padding: 20rpx 16rpx;
+  }
+
+  .good-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 16rpx;
+
+
+    view {
+      navigator {
+        display: flex;
+        flex-direction: column;
+      }
+
+      image {
+        width: 80rpx;
+        height: 80rpx;
+      }
+
+      text {
+        font-size: 24rpx;
+        text-align: center;
+        padding: 12rpx 0;
+      }
+    }
+  }
 }
