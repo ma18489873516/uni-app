@@ -27,6 +27,10 @@ page {
     justify-content: space-between;
     font-size: 24rpx;
     padding: 20rpx 16rpx;
+
+    .iconfont {
+      font-size: 24rpx;
+    }
   }
 
   .good-nav {
@@ -50,6 +54,44 @@ page {
         font-size: 24rpx;
         text-align: center;
         padding: 12rpx 0;
+      }
+    }
+  }
+
+  .good-hot {
+    height: 100%;
+    white-space: nowrap;
+    font-size: 24rpx;
+
+    view {
+      display: inline-block;
+      width: 320rpx;
+      height: 440rpx;
+      margin-right: 16rpx;
+
+      &:last-child {
+        margin-right:0rpx;
+      }
+     
+      .good-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 320rpx;
+        align-items: center;
+
+        text{
+          margin-top: 16rpx;
+          &:nth-of-type(1){
+            font-weight: bold;
+          }
+        }
+
+        image {
+          width: 100%;
+          height: 320rpx;
+          border-radius: 10rpx;
+        }
       }
     }
   }
